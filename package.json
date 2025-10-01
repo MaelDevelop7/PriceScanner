@@ -3,19 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "maeldevelop7.github.io/PriceScanner/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@capacitor-community/barcode-scanner": "^4.0.1",
     "@capacitor/android": "^7.4.3",
     "@capacitor/cli": "^7.4.3",
     "@capacitor/core": "^7.4.3",
     "@ionic/react": "^8.7.5",
     "@zxing/library": "^0.21.3",
+    "gh-pages": "^6.3.0",
     "idb": "^8.0.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
